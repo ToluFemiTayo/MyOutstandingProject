@@ -1,20 +1,88 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <link href="assests/css/style.css" type="text/css" rel="stylesheet"/>
 	</head>
 	<body>
 		<header>
-			<!-- menus and links stay here -->
-			<h1>Welcome To My Portfolio Page</h1>
-			<p>Work is in progress, check back in 8 weeks time</p>
-			<a href="index.html">Index Page</a>
+      <!-- Navigations and menus stay here -->
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__left">
+            <a href="index.html" class="nav__link">LOGO</a>
+          </li>
+          <li class="nav__right">
+            <ul class="nav__list">
+              <li>
+                <a href="about.html" class="nav__link">About</a>
+              </li>
+              <li>
+                <a href="photo.html" class="nav__link">Photos</a>
+              </li>
+              <li><a href="contact.html" class="nav__link">Contact</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
 		</header>
-		<main>
-			<!-- main content stays here -->
+    
+    
+    <!-- main content stays here -->
+    <main>
+            <!-- The first section where image and bio stays -->
+      <section>
+        <figure style="width: 300px; margin: 0 auto;">
+          <img src="assests/img/Tolu01.jpg" width="100%"/>
+          <p style="text-align: center;">Frontend Developer, lives in Lagos, Nigeria</p>
+        </figure>
+      </section>
+      
+      
+      <!-- The second section -->
+      <section>
+        <h3 style="text-align: center; font-size: 35px; letter-spacing: 2px;">Projects</h3>
+        <ul>
+          <li>First</li>
+          <li>Second</li>
+          <li>Third</li>
+          <li>Fourth</li>
+          <li>Fifth</li>
+          <li>Sixth</li>
+        </ul>
+        </section>
+      
+        <!-- The third section -->
+      <section>
+        <h3 style="text-align: center; font-size: 35px; letter-spacing: 2px;">Contact Me</h3>
+
+        <form>
+          <div>
+            <input type="text" placeholder="Your Name"/>
+          </div>
+            
+          <div>
+            <input type="text" placeholder="Your email"/>
+          </div>
+
+          <div>
+            <textarea placeholder="Your Message"></textarea>
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
 		</main>
 		<footer>
-			<!-- links and summaries stays here -->
+      <!-- links and summaries stays here -->
+      <ul>
+        <li> Twitter: <a href="" target="_blank"></a></li>
+        <li> Linkedin: <a href="https//:Linkedin.com/samsoniyanda" target="_blank">@samsoniyanda</a></li>
+      </ul>
+      <p>&copy; 2018</p>
 		</footer>
 	</body>
 </html>
