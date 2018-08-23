@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.class__selector {
+    color: green;
+    font-size: 16px;
+    font-style: normal;
+}
+
+#id__selector {
+    color: red;
+    font-size: 16;
+}
+
+.paragraph__italic {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.wrapper h1 {
+    color: brown;
+    text-align: center;
+}
+
+/* .wrapper > p {
+    color: brown;
+    font-size: 18px;
+    font-style: italic;
+} */
+
+h1 ~ p {
+    color: red;
+}
+.wrapper a {
+    font-size: 18px;
+    color: crimson;
+    text-decoration: none;
+}
+
+.wrapper li:first-child {
+    color: red;
+}
+
+.wrapper li:last-child {
+    color: blue;
+}
